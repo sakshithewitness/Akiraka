@@ -1,101 +1,134 @@
-  Akiraka Apartment Management System  
+  Akiraka Apartment Management System 🏢
 
- Overview  🏠
+ Overview 🏠
 
-Welcome to the Akiraka Apartment Management System, a comprehensive, user-friendly, and no-code platform designed to simplify apartment living. 
-This system empowers residents to manage maintenance payments, visitors, complaints, feedback, and amenity bookings, all through an intuitive web interface. 
-No coding skills are required to set up or use this system.
+Welcome to  Akiraka Apartment Management System , a  comprehensive, user-friendly, and no-code  platform designed to streamline apartment living. This system enables  residents  to manage maintenance payments, visitor logs, complaints, feedback, and amenity bookings effortlessly through an  intuitive web interface . No coding skills are required to set up or use this system, making it accessible to  residents and administrators  alike.
 
- Features  ✨
+ Features ✨
 
-   Resident Login  🔑: Secure authentication using email, apartment number, and full name.
-   Maintenance Management  💲:
-       View Maintenance Records  📊: Easily access past payment details.
-       Add New Payments  ➕: Submit new maintenance payment records via a simple form.
-       Real-time Updates  🔄: Records are dynamically updated for accurate tracking.
-   Visitor Management  🚶‍♂️:
-       Register Visitors  : Pre-register guests or log walk-in visitors.
-       Visitor Tracking  : Maintain a record of visitor entries and exits for enhanced security.
-       Notifications  : Receive notifications when registered guests arrive.
-   Complaint and Feedback  🗣️:
-       Submit Complaints  : Lodge complaints about maintenance or other issues.
-       Track Status  : Monitor the progress of complaint resolution.
-       Provide Feedback  : Share suggestions and feedback on apartment management.
-   Helpline and Emergency Contacts  🆘:
-       Easy Access  : Quickly find essential contacts for maintenance, security, and emergencies.
-       Helper Services  : Access contact information for domestic helpers, cooks, drivers, etc.
-   Amenity Booking  🏓:
-       View Availability  : Check the availability of amenities like the pool, gym, or clubhouse.
-       Reserve Slots  : Book amenity slots for specific dates and times.
-       Manage Bookings  : View and cancel existing bookings.
-   Rules and Regulations  📜:
-       Easy Access  : Clearly view apartment rules and regulations.
-       Amenity-Specific Rules  : Access rules for using amenities like pools, playhouses, and gyms.
-   Admin Dashboard  🖥️ (Future Feature):
-       Manage Users  : Add, remove, and update resident information.
-       Approve Payments  : Verify and approve maintenance payments.
-       Handle Complaints  : Manage and resolve resident complaints.
-       Control Amenities  : Set availability and booking rules for amenities.
+  🔑 Resident Login
+- Secure authentication via  email, apartment number, and full name .
+- Ensures  data security  and access control.
 
- How It Works  ⚙️
+  💲 Maintenance Management
+-  View Maintenance Records 📊 : Residents can check past  payment details  and history.
+-  Add New Payments ➕ : Submit new maintenance  payment records  through a simple form.
+-  Real-time Updates 🔄 : Transactions  dynamically update  in the system for  accurate tracking .
 
-1.   Login  : Residents authenticate using their credentials.
-2.   homepage  : Access all features from a central hub.
-3.   Maintenance  : View payment history and add new payment records.
-4.   Visitors  : Register guests, track visitor entries, and receive notifications.
-5.   Complaints  : Submit complaints and track their status.
-6.   Helpline  : Access essential contacts and helper services.
-7.   Amenities  : Check availability and book amenity slots.
-8.   Rules  : View apartment rules and regulations.
-9.   Logout  : Securely exit the system.
+  🚶‍♂️ Visitor Management
+-  Register Visitors 📝 : Pre-register  expected guests  or log  walk-in visitors .
+-  Visitor Tracking 📍 : Maintain a  record of visitor entries and exits  for enhanced security.
+-  Notifications 🔔 : Receive instant alerts when a registered visitor  arrives at the premises .
 
- Tech Stack  🛠️
+  🗣️ Complaint and Feedback
+-  Submit Complaints 🛠️ : Residents can lodge complaints regarding  maintenance, security, or other issues .
+-  Track Status 📌 : Monitor the progress and  resolution of complaints .
+-  Provide Feedback 📢 : Share  suggestions, feedback, and improvement requests  directly with management.
 
-   Frontend  : HTML, CSS, JavaScript (No coding required)
-   Backend  : Node.js with Express.js (Pre-configured API)
-   Database  : MySQL (Secure data storage)
+🆘 Helpline and Emergency Contacts
+-  Quick Access 📞 : Find essential contacts for  maintenance staff, security personnel, and emergency services .
+-  Helper Services 🏠 : Residents can view  contact details for domestic helpers, cooks, drivers, and babysitters .
 
- Setup Instructions  🚀
+  🏓 Amenity Booking
+-  View Availability 📅 : Check available  slots for amenities  like pools, gyms, and clubhouses.
+-  Reserve Slots ✅ : Book amenity slots for specific  dates and times .
+-  Manage Bookings 🔧 : View and  cancel existing bookings  as needed.
 
-1.   Clone the Repository  :
-    ```bash
-    git clone [repository URL]
-    cd [repository directory]
-    ```
-2.   Install Dependencies (Backend)  :
-    ```bash
-    cd backend
-    npm install
-    ```
-3.   Configure Database  :
-      Create a MySQL database and update the database configuration in `backend/server.js`.
-4.   Run the Backend Server  :
-    ```bash
-    node server.js
-    ```
-5.   Open the Frontend  :
-      Open `frontend/pages/homepage/homepage.html` in your web browser.
+  📜 Rules and Regulations
+-  Easy Access 📖 : View all  apartment rules and community guidelines  in one place.
+-  Amenity-Specific Rules 🚦 : Check specific  rules for pools, gyms, play areas, and event halls .
 
- User Roles  👥
+  🖥️ Admin Dashboard (Future Feature)
+-  Manage Users 👥 : Add, remove, and update  resident information .
+-  Approve Payments 💳 : Verify and approve  maintenance payments .
+-  Handle Complaints 🛠️ : Track and  resolve resident complaints efficiently .
+-  Control Amenities 🏊‍♂️ : Set availability and  booking rules for amenities .
 
-   Resident  : Access all features except admin functions.
-   Admin  (Future): Manage users, approve payments, handle complaints, and control amenities.
+ How It Works ⚙️
 
- Future Enhancements  🔮
+1.  Login 🔑 : Residents securely log in using their credentials.
+2.  Homepage 🏠 : Access all features via an  interactive dashboard .
+3.  Maintenance 💲 : View past payments and  add new payment records .
+4.  Visitors 🚶‍♂️ : Register guests,  track visitor logs , and receive notifications.
+5.  Complaints 🗣️ : Submit and  monitor complaint status .
+6.  Helpline 🆘 : Access  emergency and helper contact details .
+7.  Amenities 🏓 : Check  availability, book slots, and manage reservations .
+8.  Rules 📜 : View  apartment guidelines and community regulations .
+9.  Logout 🚪 : Securely exit the system when done.
 
-  Automated payment reminders 📅
-  Multi-user access with role-based permissions 🔑
-  Integration with email/SMS notifications 📧
-  Advanced reporting and analytics 📈
+ Tech Stack 🛠️
 
- Why Use Akiraka?  💡
+   Frontend  🎨
+-  HTML, CSS, JavaScript  – Designed with a  clean UI  for ease of use.
+-  Responsive and mobile-friendly  interface.
 
-  Quick and easy setup.
-  Real-time updates.
-  Secure data storage.
-  User-friendly interface.
-  Comprehensive apartment management features.
+   Backend  🔄
+-  Node.js with Express.js  – Efficient API and  server-side processing .
 
- Contact & Support  📞
+   Database  📊
+-  MySQL  – Secure and structured  data storage  for transactions and logs.
 
-For any issues or feature requests, please contact our support team at [support email].
+ Setup Instructions 🚀
+
+  1️⃣ Clone the Repository
+```bash
+  git clone https://github.com/your-repo-url.git
+  cd akiraka-apartment-management
+```
+
+  2️⃣ Install Backend Dependencies
+```bash
+  cd backend
+  npm install
+```
+
+  3️⃣ Configure Database
+-  Create a MySQL database  and update the configuration in `backend/server.js`:
+```js
+  const db = mysql.createConnection({
+    host: "localhost",
+    user: "your_username",
+    password: "your_password",
+    database: "your_database"
+  });
+```
+
+  4️⃣ Run the Backend Server
+```bash
+  node server.js
+```
+
+  5️⃣ Open the Frontend
+- Navigate to `frontend/pages/homepage/homepage.html` and open it in a  web browser .
+
+ User Roles 👥
+
+  👤 Resident
+- Can  access all apartment features  except  admin-only functions .
+
+  👨‍💼 Admin (Future Feature)
+-  Manages  residents,  approves payments , handles complaints, and  controls amenity bookings .
+
+ Future Enhancements 🔮
+
+-  Automated Payment Reminders 📅 
+-  Multi-user Role-Based Access 🔑 
+-  Integration with Email/SMS Alerts 📧 
+-  Advanced Data Analytics 📈 
+-  Mobile App Version 📲 
+
+ Why Choose Akiraka? 💡
+
+✔️  No Coding Required  – Easy setup and usage.  
+✔️  Real-Time Updates  – Live tracking of maintenance, visitors, and bookings.  
+✔️  Data Security  – Encrypted storage of user and payment data.  
+✔️  User-Friendly Interface  – Smooth navigation for residents and admins.  
+✔️  Comprehensive Management  – All apartment-related tasks in one platform.
+
+ Contact & Support 📞
+
+For inquiries, technical support, or feature requests, feel free to contact us:
+📩 Email: [support@akiraka.com](mailto:support@akiraka.com)  
+🌐 Website: [www.akiraka.com](https://www.akiraka.com)
+
+💙  Thank you for choosing Akiraka!  We aim to make apartment living  simpler, smarter, and stress-free.  🏡✨
